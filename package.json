@@ -1,0 +1,17 @@
+{
+  "name": "advent-of-test-code",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Hansanghyeon/advent-of-test-code.git",
+  "author": "Hansanghyeon <999@hyeon.pro>",
+  "license": "MIT",
+  "scripts": {
+    "test": "vitest"
+  },
+  "devDependencies": {
+    "vitest": "^1.0.4"
+  },
+  "dependencies": {
+    "fp-ts": "^2.16.1"
+  }
+}
