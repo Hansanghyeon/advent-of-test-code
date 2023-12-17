@@ -1,8 +1,8 @@
 {
-  "name": "advent-of-test-code",
+  "name": "@hyeon/ts-calc",
   "version": "1.0.0",
   "main": "index.js",
-  "repository": "git@github.com:Hansanghyeon/advent-of-test-code.git",
+  "repository": "git@github.com:Hansanghyeon/ts-calc.git",
   "author": "Hansanghyeon <999@hyeon.pro>",
   "license": "MIT",
   "scripts": {
