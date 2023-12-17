@@ -1,17 +1,43 @@
 {
   "name": "@hyeon/ts-calc",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "./lib/index.js",
+  "types": "./lib/index.d.ts",
+  "type": "module",
   "repository": "git@github.com:Hansanghyeon/ts-calc.git",
   "author": "Hansanghyeon <999@hyeon.pro>",
   "license": "MIT",
+  "keywords": [
+    "hyeon",
+    "typescript",
+    "functional programing",
+    "calc function"
+  ],
   "scripts": {
+    "build": "nanobundle build --tsconfig ./tsconfig.prod.json",
     "test": "vitest"
   },
   "devDependencies": {
+    "nanobundle": "^2.0.0",
+    "typescript": "^5.3.3",
     "vitest": "^1.0.4"
   },
   "dependencies": {
     "fp-ts": "^2.16.1"
+  },
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.cjs",
+      "require": "./lib/index.mjs"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
   }
 }

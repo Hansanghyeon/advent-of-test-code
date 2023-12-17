@@ -1,4 +1,4 @@
-import { assert, describe, expect, it } from 'vitest'
+import { expect, it } from 'vitest'
 import { css2json } from './css-to-json'
 
 // css string을 json을 변환

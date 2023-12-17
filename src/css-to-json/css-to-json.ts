@@ -1,4 +1,4 @@
-function css2json(cssString: string): Record<string, string> {
+function cssToJson(cssString: string): Record<string, string> {
   // CSS 속성을 저장할 빈 개체를 초기화합니다
   const cssObject: { [key: string]: string } = {};
 
@@ -20,5 +20,10 @@ function css2json(cssString: string): Record<string, string> {
   return cssObject;
 }
 
-export { css2json }
-export default css2json
+/**
+ * alias
+ */
+const css2json = cssToJson
+
+export { cssToJson, css2json }
+export default cssToJson

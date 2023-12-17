@@ -1,3 +1,17 @@
+```sh
+npm install @hyeon/ts-calc
+```
+
+```ts
+import { cssToJson } from '@hyeon/ts-calc'
+```
+
+```ts
+import { css2json } from '@hyeon/ts-calc'
+```
+
+---
+
 tailwindcss에서 플러그인을 만들때
 
 ```ts
@@ -35,3 +49,25 @@ addUtilities({
 ```
 
 이제 이렇게 써주면된다.
+
+키포맷을 변경하기
+
+```ts
+function camelCase(key: string) {
+  return key.trim().replace(/-([a-z])/g, (g) => g[1].toUpperCase());
+}
+addUtilities({
+  '.test': pipe(
+    `
+      font-size: 48px;
+      font-weight: 800;
+      letter-spacing: -0.48px;
+    `,
+    css2json,
+    R.reduceWithIndex(S.Ord)({}, (key, acc, value) => ({
+      ...acc,
+      [camelCase(key)]: value,
+    }))
+  )
+})
+```
