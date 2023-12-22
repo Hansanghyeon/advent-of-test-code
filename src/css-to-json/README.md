@@ -1,13 +1,13 @@
 ```sh
-npm install @hyeon/ts-calc
+npm install @hyeon/calc-ts
 ```
 
 ```ts
-import { cssToJson } from '@hyeon/ts-calc'
+import { cssToJson } from '@hyeon/calc-ts'
 ```
 
 ```ts
-import { css2json } from '@hyeon/ts-calc'
+import { css2json } from '@hyeon/calc-ts'
 ```
 
 ---

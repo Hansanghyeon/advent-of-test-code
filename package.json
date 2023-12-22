@@ -1,10 +1,10 @@
 {
-  "name": "@hyeon/ts-calc",
-  "version": "1.0.0",
+  "name": "@hyeon/calc-ts",
+  "version": "1.0.2",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "type": "module",
-  "repository": "git@github.com:Hansanghyeon/ts-calc.git",
+  "repository": "git@github.com:Hansanghyeon/calc-ts.git",
   "author": "Hansanghyeon <999@hyeon.pro>",
   "license": "MIT",
   "keywords": [

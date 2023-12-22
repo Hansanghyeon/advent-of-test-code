@@ -1,5 +1,5 @@
 ```sh
-npm install @hyeon/ts-calc
+npm install @hyeon/calc-ts
 ```
 
 함수형 프로그래밍 실천하기

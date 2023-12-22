@@ -1,1 +1,1 @@
-export * from './css-to-json/css-to-json.ts'
+export * from './css-to-json/css-to-json.js'
