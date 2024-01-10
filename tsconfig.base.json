@@ -6,6 +6,7 @@
     "moduleResolution": "NodeNext",
     "moduleDetection": "force",
     "allowImportingTsExtensions": true,
+    "emitDeclarationOnly": true,
     "noEmit": false,
     "composite": true,
     "strict": true,

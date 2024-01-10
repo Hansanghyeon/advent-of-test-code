@@ -1,5 +1,5 @@
 import { expect, it } from 'vitest'
-import { css2json } from './css-to-json'
+import { css2json } from './css-to-json.ts'
 
 // css string을 json을 변환
 it('should convert css string to json', () => {

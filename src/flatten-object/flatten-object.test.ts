@@ -1,5 +1,5 @@
 import { assert, describe, test } from 'vitest'
-import { flattenObject } from './flatten-object';
+import { flattenObject } from './flatten-object.ts';
 import { pipe, flow } from 'fp-ts/function'
 import * as R from 'fp-ts/Record'
 
