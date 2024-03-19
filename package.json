@@ -32,6 +32,11 @@
       "import": "./lib/index.cjs",
       "require": "./lib/index.mjs"
     },
+    "./fp": {
+      "types": "./lib/fp.d.ts",
+      "import": "./lib/fp.cjs",
+      "require": "./lib/fp.mjs"
+    },
     "./package.json": "./package.json"
   },
   "files": [
