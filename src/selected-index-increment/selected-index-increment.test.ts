@@ -1,5 +1,5 @@
 import { assert, describe, it } from 'vitest'
-import { downExample, upExample } from './selected-index-increment'
+import { downExample, upExample } from './selected-index-increment.ts'
 
 const target = [
   { id: 1 },
